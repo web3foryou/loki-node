@@ -18,7 +18,7 @@ scrape_configs:
         job: varlogs
         __path__: /var/log/*log
 
-  - job_name: testlogs
+  - job_name: system
     static_configs:
     - targets:
         - localhost
