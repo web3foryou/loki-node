@@ -16,7 +16,7 @@ scrape_configs:
         - localhost
       labels:
         job: varlogs
-        __path__: /var/log3/*log
+        __path__: /var/log/*log
 
   - job_name: testlogs
     static_configs:
@@ -24,7 +24,7 @@ scrape_configs:
         - localhost
       labels:
         job: testlogs
-        __path__: /var/log/*log
+        __path__: /var/log/test/*log
 
 #  - job_name: journal
 #    journal:
