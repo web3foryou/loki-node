@@ -1,4 +1,5 @@
 #!/bin/bash
+cd /home/loki-node/
 git pull
 docker-compose down
 docker-compose pull
